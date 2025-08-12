@@ -6,3 +6,5 @@ title = "MRX Book"
 
 [output.html]
 mathjax-support = true
+site-url = "/mrx-book/"
+git-repository-url = "https://github.com/mrx-org/mrx-book"
