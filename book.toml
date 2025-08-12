@@ -1,0 +1,8 @@
+[book]
+authors = ["J-Endres"]
+language = "en"
+src = "src"
+title = "MRX Book"
+
+[output.html]
+mathjax-support = true
