@@ -1,4 +1,4 @@
-# Contributors and License
+# Contributors and Licenses
 
 MRX is created by:
 

@@ -2,13 +2,17 @@
 
 [Introduction](introduction.md)
 
-# Projects
+# Building Blocks
 
-- [Universal Simulation Interface (USI)](usi/README.md)
-    - [Host](usi/host.md)
-    - [Tool](usi/tool.md)
+- [MRX: ToolAPI (previously USI)](usi/README.md)
+    - [Tool and Host](usi/tool_host.md)
     - [Value types](usi/values/README.md)
+
+# Applications
+
+- [Tutorials]()
+- [MRX: Assistant]()
 
 ---
 
-[Contributors and License](legal.md)
+[Contributors and Licenses](legal.md)
