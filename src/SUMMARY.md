@@ -4,9 +4,12 @@
 
 # Building Blocks
 
-- [MRX: ToolAPI (previously USI)](usi/README.md)
-    - [Tool and Host](usi/tool_host.md)
-    - [Value types](usi/values/README.md)
+- [MRX: ToolAPI](toolapi/README.md)
+    - [Tool and Host](toolapi/tool_host.md)
+    - [Value types](toolapi/values/README.md)
+- [MRX: Pulseq](pulseq/README.md)
+- [Tools](tools/README.md)
+- [Apps](apps/README.md)
 
 # Applications
 
