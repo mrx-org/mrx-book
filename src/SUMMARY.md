@@ -4,12 +4,13 @@
 
 # Building Blocks
 
-- [MRX: ToolAPI](toolapi/README.md)
+- [MRX: ToolAPI](toolapi/index.md)
     - [Tool and Host](toolapi/tool_host.md)
-    - [Value types](toolapi/values/README.md)
-- [MRX: Pulseq](pulseq/README.md)
-- [Tools](tools/README.md)
-- [Apps](apps/README.md)
+    - [Value types](toolapi/values/index.md)
+- [MRX: Pulseq](pulseq/index.md)
+- [Tools](tools/index.md)
+    - [kspace extract](tools/kspace_extract.md)
+- [Apps](apps/index.md)
 
 # Applications
 

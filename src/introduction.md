@@ -19,7 +19,7 @@ The foundation of `MRX: Assistant` consists of various building blocks.
 These are developed independent of each other.
 This allows to use them to construct new products which go beyond the target of an assistant.
 
-- [`MRX: ToolAPI`](toolapi/README.md): Connect any application with any MRX world-model tool, easily. Allows quick experimentation: comparing implementations, testing tools in various scenarios. Developed first as it helps with the development of the other building blocks.
-- [`MRX: Pulseq`](pulseq/README.md): Create sequences with a fully [pypulseq](https://github.com/imr-framework/pypulseq) copmatible API. Supports `.seq` files and is `MRX: ToolAPI` compatible.
-- [Tools](tools/README.md): Tools built in Rust and Python, using the `MRX: ToolAPI`.
-- [Apps](apps/README.md): Apps using different Tools to build Products.
+- [`MRX: ToolAPI`](toolapi/index.md): Connect any application with any MRX world-model tool, easily. Allows quick experimentation: comparing implementations, testing tools in various scenarios. Developed first as it helps with the development of the other building blocks.
+- [`MRX: Pulseq`](pulseq/index.md): Create sequences with a fully [pypulseq](https://github.com/imr-framework/pypulseq) copmatible API. Supports `.seq` files and is `MRX: ToolAPI` compatible.
+- [Tools](tools/index.md): Tools built in Rust and Python, using the `MRX: ToolAPI`.
+- [Apps](apps/index.md): Apps using different Tools to build Products.
