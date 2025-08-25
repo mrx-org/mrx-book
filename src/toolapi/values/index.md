@@ -8,17 +8,27 @@ To facilitate the unification of USI tools, this exchange is done via a canonica
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
-| `Bool` | Can be true or false. | `use_gpu=true` |
-| `Int` | 64bit signed integer. Ranges from \\(-2^{63}\\) to \\(2^{63} - 1\\). | `spin_count=1000` |
-| `Float` | Double-precision (64 bit) IEEE 754 floating point value. | `latent_signal_threshold=0.1` |
-| `Complex` | Encoded as real and imaginary `Float` | _Currently not exposed_ |
-| `Signal` | List of per-coil lists of `Complex` ADC samples. | See [Signal](#signal) |
-| `Encoding` | Encoding of ADC samples, stored as 4 `Float`s. | See [Encoding](#encoding) |
-| `VoxelPhantom` | Flattened list of voxels + positions | See [VoxelPhantom](#voxelphantom) |
-| `VoxelGridPhantom` | Cartesian 3D grid of voxels | See [VoxelGridPhantom](#voxelgridphantom) |
-| `DiscreteEventSeq` | Sequence of instantaneous events | See [DiscreteEventSeq](#discreteeventseq) |
-| `ContinuousBlockSeq` | Pulseq-like sequence of blocks | See [ContinuousBlockSeq](#continuousblockseq) |
+| [`Bool`](#bool) | Can be true or false. | `use_gpu=true` |
+| [`Int`](#int) | 64bit signed integer. Ranges from \\(-2^{63}\\) to \\(2^{63} - 1\\). | `spin_count=1000` |
+| [`Float`](#float) | Double-precision (64 bit) IEEE 754 floating point value. | `latent_signal_threshold=0.1` |
+| [`Complex`](#complex) | Encoded as real and imaginary `Float` | _Currently not exposed_ |
+| [`Signal`](#signal) | List of per-coil lists of `Complex` ADC samples. | See [Signal](#signal) |
+| [`Encoding`](#encoding) | Encoding of ADC samples, stored as 4 `Float`s. | See [Encoding](#encoding) |
+| [`VoxelPhantom`](#voxelPhantom) | Flattened list of voxels + positions | See [VoxelPhantom](#voxelphantom) |
+| [`VoxelGridPhantom`](#voxelgridphantom) | Cartesian 3D grid of voxels | See [VoxelGridPhantom](#voxelgridphantom) |
+| [`DiscreteEventSeq`](#discreteeventseq) | Sequence of instantaneous events | See [DiscreteEventSeq](#discreteeventseq) |
+| [`ContinuousBlockSeq`](#continuousblockseq) | Pulseq-like sequence of blocks | See [ContinuousBlockSeq](#continuousblockseq) |
 
+
+## Bool
+
+## Int
+
+## Float
+
+## Complex
+
+---
 
 ## Signal
 
@@ -58,6 +68,19 @@ Each sample gives the following values:
 | `b0` | \\(B_0\\) off-resonance frequency \\([Hz]\\) |
 | `b1` | Relative \\(B_1\\) field strength |
 | `coil_sens` | Coil sensitivity \\([a.u.]\\) |
+
+
+## TissueProperties
+
+Structure containing basic signal types, used by the [kspace extract tool](/src/tools/kspace_extract.md).
+Contains four [Floats](/src/toolapi/values/index.md#float):
+
+| Property | Description |
+| -------- | ----------- |
+| `t1` | \\(T_1\\) relaxation time \\([s]\\) |
+| `t2` | \\(T_2\\) relaxation time \\([s]\\) |
+| `t2dash` | \\(T_2'\\) dephasing time \\([s]\\) |
+| `pd` | Proton density \\([a.u.]\\) |
 
 
 ### VoxelShape
