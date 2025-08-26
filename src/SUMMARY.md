@@ -9,7 +9,9 @@
     - [Value types](toolapi/values/index.md)
 - [MRX: Pulseq](pulseq/index.md)
 - [Tools](tools/index.md)
-    - [kspace extract](tools/kspace_extract.md)
+    - [k-Space extraction](tools/kspace_extract.md)
+    - [Basic Bloch simulation](tools/basic_bloch_sim.md)
+    - [MR-zero PDG simulation](tools/mr0_pdg_sim.md)
 - [Apps](apps/index.md)
 
 # Applications

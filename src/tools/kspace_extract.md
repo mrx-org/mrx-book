@@ -1,4 +1,8 @@
-# kspace_extract
+# k-Space extraction
+
+```bash
+kspace_extract.exe
+```
 
 A tool for extracting the k-space from a sequence.
 Internally uses a PDG simulation based on the provided tissue properties.
